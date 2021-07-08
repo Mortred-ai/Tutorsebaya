@@ -233,6 +233,83 @@
 
 /********************/
 /*                  */
+/*       FAQ        */
+/*                  */
+/********************/ 
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.accordion-wrapper {
+    overflow: hidden;
+    /* border-radius: 30px; */
+    width: 85%;
+    margin:0 auto;
+}
+.accordion {
+    /* width: 85%; */
+    box-shadow: 0 4px 4px -2px rgba(216, 216, 216, 0.5);
+    width: 100%;
+    border-radius: 40px;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+.accordion:last-child{
+    margin-bottom: 0;
+}
+.accordion-label {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 16px;
+    background: var(--main-darker-color);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.accordion-label:hover {
+    background: var(--main-dark-color);
+}
+.accordion-label::after {
+    content: "\276F";
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.accordion-content {
+    max-height: 0;
+    padding: 0 16px;
+    color: var(--main-dark-color);
+    background: white;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.accordion-content p{
+    margin: 0;
+    color: var(--main-dark-color);
+    font-size: 18px;
+}
+input:checked + .accordion-label {
+    background: var(--main-darkest-color);
+}
+input:checked + .accordion-label::after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+input:checked ~ .accordion-content {
+    max-height: 100vh;
+    padding: 16px;
+}
+  
+
+
+/********************/
+/*                  */
 /*      Footer      */
 /*                  */
 /********************/
