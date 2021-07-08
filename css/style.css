@@ -38,6 +38,10 @@
 /*                 */
 /*******************/ 
 
+body{
+    overflow-x: hidden;
+}
+
 .text-white{
     color : var(--main-white-color);
 }
