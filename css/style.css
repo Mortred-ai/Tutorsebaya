@@ -78,7 +78,22 @@
     background-color : var(--main-light-color);
 }
 
+.bg-black{
+    background-color : var(--main-black-color);
+}
 
+
+
+/********************/
+/*                  */
+/*      Navbar      */
+/*                  */
+/********************/
+
+.img-logo{
+    width: 45px;
+    height: 40px;
+}
 
 /********************/
 /*                  */
@@ -102,12 +117,11 @@
     height: 850px;
     width: 100%;
 }
-
-.banner-text{
-    opacity: 1;
-    z-index: 2;
-    z-index: 4;
+ 
+.jumbotron-landing > .container > .row > .img-wrapper > img{ 
+    width: 100%;
 }
+ 
 
 .card-questions{
     border-radius: 30px;
@@ -123,10 +137,14 @@
     border-radius: 30px;
     width: 100%; 
     font-weight: bold;
-    transition: 0.6s;
+    transition: 0.3s;
+    background-color: var(--main-darker-color);
+   color : var(--main-white-color);
+
 }
 
 .btn-questions:hover{
+    background-color: var(--main-dark-color);
    color : var(--main-white-color);
 }
 
@@ -155,7 +173,8 @@
     min-height: 100px ;
     margin: 0 auto;
     margin-top: 210px;
-    background-color: var(--main-light-color);
+    /* background-color: var(--main-white-color); */
+    border: solid 2px var(--main-light-color);
     font-weight: bold;
     color: var(--main-darker-color);
     cursor: pointer;
@@ -178,3 +197,68 @@
     margin: 20px auto; 
     padding-top: 20px;
 }
+
+
+/********************/
+/*                  */
+/*      Banner      */
+/*                  */
+/********************/
+
+.banner-info{  
+    margin-top: 100px;
+    background: url(../assets/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner-info p{  
+    
+    font-weight: bold; 
+    font-size: 2em;
+    line-height: 40px;
+}
+
+/********************/
+/*                  */
+/*      Reason      */
+/*                  */
+/********************/
+
+.line-reason{
+    width: 60%;
+    border-radius: 5000px;
+    border : solid 2px var(--main-darkest-color)
+}
+
+/********************/
+/*                  */
+/*      Footer      */
+/*                  */
+/********************/
+
+.jumbotron-foot > .container > .row > .tentang a,
+.jumbotron-foot > .container > .row > .social  a{ 
+    transition: 0.3s;
+    line-height: 50px;
+} 
+ 
+.tentang a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--main-white-color);
+}
+
+.tentang a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--main-darker-color);
+}
+
+.jumbotron-foot > .container > .row > .social   a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--main-darker-color);
+} 

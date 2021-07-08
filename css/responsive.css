@@ -14,6 +14,10 @@
     .jumbotron-landing {
         height: 120vh;
     } 
+
+    .jumbotron-landing > .container > .row > .img-wrapper > img{ 
+        display: none;
+    }
     
     /********************/
     /*                  */
@@ -28,7 +32,6 @@
         max-height: 130px ;
         margin: 0 auto;
         margin-top: 30px;
-        background-color: var(--main-light-color);
         font-weight: bold;
         color: var(--main-darker-color);
         cursor: pointer;
@@ -62,6 +65,19 @@
         margin-top: 10px;
     }
     
+    .jumbotron-landing {
+        height: 120vh;
+    } 
+
+    
+    .jumbotron-landing > img{  
+        margin-top : -100px;
+        height: 500px; 
+    }
+    
+    .jumbotron-landing > .container > .row > .img-wrapper > img{ 
+        display: none;
+    }
     
     /********************/
     /*                  */
@@ -75,7 +91,6 @@
         max-height: 130px ;
         margin: 0 auto;
         margin-top: 30px;
-        background-color: var(--main-light-color);
         font-weight: bold;
         color: var(--main-darker-color);
     }
@@ -97,8 +112,20 @@
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
 
-    .card-questions{
-        box-shadow: 0px 10px 15px 0px rgb(224, 224, 224); 
+      
+    /********************/
+    /*                  */
+    /*      Banner      */
+    /*                  */
+    /********************/
+
+    .jumbotron-landing {
+        height: 100vh;
+    } 
+
+    .card-questions{ 
+        margin-top: 10px;
+        box-shadow: 0px 10px 15px 0px rgb(242, 242, 242); 
     }
 
     
@@ -106,6 +133,12 @@
         height: 110vh;
     } 
     
+    .jumbotron-landing > .container > .row > .img-wrapper > img{ 
+        display: flex;
+        margin-top: 50px;
+        height: 75%;
+        width: 100%;
+    }
      
     /********************/
     /*                  */
@@ -119,7 +152,6 @@
         max-height: 200px ;
         margin: 0 auto;
         margin-top: 230px;
-        background-color: var(--main-light-color);
         font-weight: bold;
         color: var(--main-darker-color);
     }
@@ -146,12 +178,19 @@
     /********************/
 
     .card-questions{ 
-        margin-top: 50vh;
+        margin-top: 15vh;
     }
 
     .jumbotron-landing {
         height: 140vh;
     } 
+
+    .jumbotron-landing > .container > .row > .img-wrapper > img{ 
+        display: flex;
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+    }
     
     /********************/
     /*                  */
@@ -165,7 +204,6 @@
         max-height: 200px ;
         margin: 0 auto;
         margin-top: 190px;
-        background-color: var(--main-light-color);
         font-weight: bold;
         color: var(--main-darker-color); 
     } 
