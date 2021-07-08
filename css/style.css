@@ -138,8 +138,8 @@
     width: 100%; 
     font-weight: bold;
     transition: 0.3s;
-    background-color: var(--main-darker-color);
-   color : var(--main-white-color);
+    /* background-color: var(--main-darker-color); */
+   color : var(--main-dark-color);
 
 }
 
