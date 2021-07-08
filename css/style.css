@@ -166,13 +166,17 @@
 /*                  */
 /********************/
 
+.title-info{   
+    margin-top: 210px;   
+}
+
 .card-info{ 
     padding: 15px 0;
     border-radius: 30px;
     width: 20%;
     min-height: 100px ;
     margin: 0 auto;
-    margin-top: 210px;
+    /* margin-top: 210px; */
     /* background-color: var(--main-white-color); */
     border: solid 2px var(--main-light-color);
     font-weight: bold;

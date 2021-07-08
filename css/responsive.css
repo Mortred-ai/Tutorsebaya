@@ -24,14 +24,17 @@
     /*       Info       */
     /*                  */
     /********************/
-       
+    
+    .title-info{   
+        margin-top: 150px;  
+    }
+
     .card-info{ 
         padding: 0;
         border-radius: 30px;
         width: 30%;
         max-height: 130px ;
         margin: 0 auto;
-        margin-top: 150px;
         font-weight: bold;
         color: var(--main-darker-color);
         cursor: pointer;
@@ -47,7 +50,7 @@
 
     .card-info:nth-child(3) > img{ 
         margin: 20px auto; 
-        padding-top: 0;
+        padding-top: 7px;
     } 
 
     /********************/
@@ -96,13 +99,17 @@
     /*       Info       */
     /*                  */
     /********************/
+
+    .title-info{   
+        margin-top: 150px;  
+    }
+
     .card-info{ 
         padding: 0;
         border-radius: 30px;
         width: 30%;
         max-height: 130px ;
         margin: 0 auto;
-        margin-top: 150px;
         font-weight: bold;
         color: var(--main-darker-color);
     }
@@ -167,13 +174,17 @@
     /*       Info       */
     /*                  */
     /********************/
+
+    .title-info{   
+        margin-top: 180px;  
+    }
+
     .card-info{ 
         padding: 0;
         border-radius: 30px;
         width: 28%;
         max-height: 200px ;
         margin: 0 auto;
-        margin-top: 180px;
         font-weight: bold;
         color: var(--main-darker-color);
     }
@@ -235,13 +246,17 @@
     /*       Info       */
     /*                  */
     /********************/
+
+    .title-info{   
+        margin-top: 190px;  
+    }
+
     .card-info{ 
         padding: 15px 0;
         border-radius: 30px;
         width: 23%;
         max-height: 200px ;
-        margin: 0 auto;
-        margin-top: 190px;
+        margin: 0 auto; 
         font-weight: bold;
         color: var(--main-darker-color); 
     } 
