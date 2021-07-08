@@ -138,8 +138,8 @@
     width: 100%; 
     font-weight: bold;
     transition: 0.3s;
-    /* background-color: var(--main-darker-color); */
-   color : var(--main-dark-color);
+    background-color: var(--main-darker-color);
+   color : var(--main-white-color);
 
 }
 
@@ -263,7 +263,7 @@ input {
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 30px;
     background: var(--main-darker-color);
     font-weight: bold;
     cursor: pointer;
@@ -303,7 +303,7 @@ input:checked + .accordion-label::after {
 }
 input:checked ~ .accordion-content {
     max-height: 100vh;
-    padding: 16px;
+    padding: 30px;
 }
   
 
@@ -317,25 +317,19 @@ input:checked ~ .accordion-content {
 .jumbotron-foot > .container > .row > .tentang a,
 .jumbotron-foot > .container > .row > .social  a{ 
     transition: 0.3s;
-    line-height: 50px;
+    line-height: 35px;
 } 
  
-.tentang a{
+.tentang a, .social a{
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
     color: var(--main-white-color);
 }
 
-.tentang a:hover{
+.tentang a:hover, .social a:hover{
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
     color: var(--main-darker-color);
 }
-
-.jumbotron-foot > .container > .row > .social   a:hover{
-    text-decoration: none;
-    cursor: pointer;
-    color: var(--main-darker-color);
-} 
