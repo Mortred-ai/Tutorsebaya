@@ -14,16 +14,16 @@
 </head>
 <body>
     <section id="navbar"> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-darker font-weight-bold fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darker font-weight-bold fixed-top ">
             <div class="container">
-                <a class="navbar-brand do_script animate__animated animate__fadeInDown" href="">
+                <a class="navbar-brand animate__animated animate__fadeInDown" href="">
                     Tutor <span class="text-yellow">sebaya</span> 
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
             
-                <div class="collapse navbar-collapse do_script animate__animated animate__fadeIn" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse animate__animated animate__fadeIn" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                     <a class="nav-link" href="#">Login  </a>
@@ -31,8 +31,8 @@
                     <li class="nav-item active">
                     <a class="nav-link" href="#">  Signup </a>
                     </li>
-                    <li class="nav-item ">
-                    <a class="nav-link" href="#">Pertanyaan </a>
+                    <li class="nav-item  d-flex align-item-center animate__animated animate__pulse animate__infinite ">
+                    <a class="btn btn-nav-question bg-orange text-white" href="#">Pertanyaan </a>
                     </li>
                    
                 </ul>
@@ -44,34 +44,67 @@
 
     <section id="banner">
         <div class="jumbotron jumbotron-fluid jumbotron-landing bg-darker text-white">
+            <img src="assets/bg-1.png">
             <div class="container py-5">
-                <div class="row">
-                    <div class="col-sm-12 col-md-5">
-                        <img class="do_script animate__animated animate__fadeIn " src="" alt="&nbsp;Maskot.png">
+                <div class="banner-text">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-5">
+                            <img class="do_script animate__animated animate__fadeIn " src="" alt="&nbsp;Maskot.png">
+                        </div>
+                        <div class="col-sm-12 col-md-7 mt-md-5"> 
+                                <h1 class="display-5 font-weight-bold do_script animate__animated animate__fadeInRight animate__fast">
+                                    Beranjak dari pertanyaan ke pemahaman
+                                </h1>
+                                <p class="lead mt-4 pr-5 do_script animate__animated animate__fadeInRight">
+                                    TutorSebaya adalah komunitas berbagi pengetahuan tempat para 
+                                    siswa dan pakar bersatu padu untuk menjawab pertanyaan 
+                                    pembelajaran tersulit mereka.</p> 
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-7"> 
-                            <h1 class="display-5 font-weight-bold do_script animate__animated animate__fadeInRight animate__fast">
-                                Beranjak dari pertanyaan ke pemahaman
-                            </h1>
-                            <p class="lead mt-4 pr-5 do_script animate__animated animate__fadeInRight">
-                                TutorSebaya adalah komunitas berbagi pengetahuan tempat para 
-                                siswa dan pakar bersatu padu untuk menjawab pertanyaan 
-                                pembelajaran tersulit mereka.</p> 
-                    </div>
-                </div>
-            
-                <div class="row">
-                    <div class="card  col-10 col-md-10 card-questions mx-auto do_script animate__animated animate__fadeInUp animate__fast text-black ">
-                        <div class="card-body p-md-5 do_script animate__animated animate__fadeInUp">
-                        <h5 class="card-title font-weight-bolder" >Punya Pertanyaan?</h5> 
-                        <textarea class="form-control txt-questions mt-4" rows="3" id="validationTextarea" placeholder="Pertanyaan kamu.." required></textarea>
-                        <a href="#" class="btn btn-outline-warning btn-questions mt-3 p-2">Tanyakan Sekarang</a> 
+                
+                    <div class="row">
+                        <div class="card  col-10 col-md-10 card-questions mx-auto do_script animate__animated animate__fadeInUp animate__fast text-black ">
+                            <div class="card-body p-md-5 do_script animate__animated animate__fadeInUp">
+                            <h5 class="card-title font-weight-bolder" >Punya Pertanyaan?</h5> 
+                            <textarea class="form-control txt-questions mt-4" rows="3" id="validationTextarea" placeholder="Pertanyaan kamu.." required></textarea>
+                            <a href="#" class="btn btn-outline-warning btn-questions mt-3 p-2">Tanyakan Sekarang</a> 
+                            </div>
                         </div>
                     </div>
                 </div>
              </div>
-          </div>
-          
+          </div> 
+    </section>
+
+    <section id="info">
+        <div class="container"> 
+            <div class="d-flex text-center px-md-5 ">
+                <div class="card d-flex card-info do_script animate__animated animate__fadeInLeft animate__delay-1s  " >
+                    <img src="assets/businessmen.png" class="card-img-top  img-fluid" alt="...">
+                    <div class="card-body pt-0">
+                    <p class="card-text">Grup Diskusi</p>
+                    </div>
+                </div>
+
+                <div class="card d-flex card-info do_script animate__animated animate__fadeInUp animate__delay-1s  " >
+                    <img src="assets/computer.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body pt-0">
+                    <p class="card-text">Mudah Diakses</p>
+                    </div>
+                </div>
+
+                <div class="card d-flex card-info do_script animate__animated animate__fadeInRight animate__delay-1s  " >
+                    <img src="assets/Path 195.png" class="card-img-topimg-fluid" alt="...">
+                    <div class="card-body pt-0">
+                    <p class="card-text">Ribuan Materi</p>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+    </section>
+
+    <section>
+        <br><br><br><br><br><br><br><br><br><br><br>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

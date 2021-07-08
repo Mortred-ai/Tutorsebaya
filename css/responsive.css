@@ -1,28 +1,185 @@
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 @media (max-width: 576px) { 
+    
+    /********************/
+    /*                  */
+    /*      Banner      */
+    /*                  */
+    /********************/
+
     .card-questions{ 
         margin-top: 10px;
     }
+    .jumbotron-landing {
+        height: 120vh;
+    } 
+    
+    /********************/
+    /*                  */
+    /*       Info       */
+    /*                  */
+    /********************/
+       
+    .card-info{ 
+        padding: 0;
+        border-radius: 30px;
+        width: 30%;
+        max-height: 130px ;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-color: var(--main-light-color);
+        font-weight: bold;
+        color: var(--main-darker-color);
+        cursor: pointer;
+        transition: 0.4s;
+        box-shadow: 0px 10px 15px 0px rgb(247, 247, 247);
+    }
+
+    .card-info > img{ 
+        margin: 20px auto;
+        width: 28%;
+        height: 28%; 
+    }
+
+    .card-info:nth-child(3) > img{ 
+        margin: 20px auto; 
+        padding-top: 0;
+    }
+ 
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+    
+    /********************/
+    /*                  */
+    /*      Banner      */
+    /*                  */
+    /********************/
+
     .card-questions{ 
         margin-top: 10px;
     }
+    
+    
+    /********************/
+    /*                  */
+    /*       Info       */
+    /*                  */
+    /********************/
+    .card-info{ 
+        padding: 0;
+        border-radius: 30px;
+        width: 30%;
+        max-height: 130px ;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-color: var(--main-light-color);
+        font-weight: bold;
+        color: var(--main-darker-color);
+    }
+
+    .card-info > img{ 
+        margin: 20px auto;
+        width: 28%;
+        height: 28%; 
+    }
+
+    .card-info:nth-child(3) > img{ 
+        margin: 20px auto; 
+        padding-top: 0;
+    }
+ 
+    
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+
+    .card-questions{
+        box-shadow: 0px 10px 15px 0px rgb(224, 224, 224); 
+    }
+
+    
+    .jumbotron-landing {
+        height: 110vh;
+    } 
+    
+     
+    /********************/
+    /*                  */
+    /*       Info       */
+    /*                  */
+    /********************/
+    .card-info{ 
+        padding: 0;
+        border-radius: 30px;
+        width: 28%;
+        max-height: 200px ;
+        margin: 0 auto;
+        margin-top: 230px;
+        background-color: var(--main-light-color);
+        font-weight: bold;
+        color: var(--main-darker-color);
+    }
+
+    .card-info > img{ 
+        margin: 20px auto;
+        width: 26%;
+        height: 30%; 
+    }
+
+    .card-info:nth-child(3) > img{ 
+        margin: 20px auto; 
+        padding: 5px 0;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+    
+    /********************/
+    /*                  */
+    /*      Banner      */
+    /*                  */
+    /********************/
+
     .card-questions{ 
-        margin-top: 100px;
+        margin-top: 50vh;
+    }
+
+    .jumbotron-landing {
+        height: 140vh;
+    } 
+    
+    /********************/
+    /*                  */
+    /*       Info       */
+    /*                  */
+    /********************/
+    .card-info{ 
+        padding: 15px 0;
+        border-radius: 30px;
+        width: 23%;
+        max-height: 200px ;
+        margin: 0 auto;
+        margin-top: 190px;
+        background-color: var(--main-light-color);
+        font-weight: bold;
+        color: var(--main-darker-color); 
+    } 
+    
+    .card-info > img{ 
+        margin: 20px auto;
+        width: 26%;
+        height: 40%; 
     }
     
+    .card-info:nth-child(3) > img{ 
+        margin: 20px auto; 
+        padding: 10px 0;
+    }
 } 
 
 /* // Extra large devices (large desktops, 1200px and up) */
