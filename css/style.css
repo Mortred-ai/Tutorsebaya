@@ -46,8 +46,8 @@
     color : var(--main-orange-color);
 }
 
-.text-white{
-    color : var(--main-white-color);
+.text-black{
+    color : var(--main-black-color);
 }
 
 .text-yellow{
@@ -71,10 +71,32 @@
 }
 
 
-/*******************/
-/*                 */
-/*      Style      */
-/*                 */
-/*******************/
+/********************/
+/*                  */
+/*    CSS Style     */
+/*                  */
+/********************/
 
+.jumbotron-landing {
+    height: 100vh;
+}
 
+.card-questions{
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+.txt-questions{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.btn-questions{
+    border-radius: 30px;
+    width: 100%; 
+    font-weight: bold;
+}
+
+.btn-questions:hover{
+   color : var(--main-white-color);
+}

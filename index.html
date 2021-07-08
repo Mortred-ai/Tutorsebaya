@@ -14,7 +14,7 @@
 </head>
 <body>
     <section id="navbar"> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-darker font-weight-bold">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-darker font-weight-bold fixed-top">
             <div class="container">
                 <a class="navbar-brand do_script animate__animated animate__fadeInDown" href="">
                     Tutor <span class="text-yellow">sebaya</span> 
@@ -23,16 +23,16 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
             
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse do_script animate__animated animate__fadeIn" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">Login   <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Login  </a>
                     </li>
                     <li class="nav-item active">
-                    <a class="nav-link" href="#">  Signup <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">  Signup </a>
                     </li>
                     <li class="nav-item ">
-                    <a class="nav-link" href="#">Pertanyaan <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Pertanyaan </a>
                     </li>
                    
                 </ul>
@@ -43,13 +43,13 @@
     </section>
 
     <section id="banner">
-        <div class="jumbotron jumbotron-fluid bg-darker text-white">
+        <div class="jumbotron jumbotron-fluid jumbotron-landing bg-darker text-white">
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                        <img class="do_script animate__animated animate__fadeIn " src="" alt="Maskot">
+                    <div class="col-sm-12 col-md-5">
+                        <img class="do_script animate__animated animate__fadeIn " src="" alt="&nbsp;Maskot.png">
                     </div>
-                    <div class="col-sm-12 col-md-8"> 
+                    <div class="col-sm-12 col-md-7"> 
                             <h1 class="display-5 font-weight-bold do_script animate__animated animate__fadeInRight animate__fast">
                                 Beranjak dari pertanyaan ke pemahaman
                             </h1>
@@ -59,25 +59,25 @@
                                 pembelajaran tersulit mereka.</p> 
                     </div>
                 </div>
-            </div>
+            
+                <div class="row">
+                    <div class="card  col-10 col-md-10 card-questions mx-auto do_script animate__animated animate__fadeInUp animate__fast text-black ">
+                        <div class="card-body p-md-5 do_script animate__animated animate__fadeInUp">
+                        <h5 class="card-title font-weight-bolder" >Punya Pertanyaan?</h5> 
+                        <textarea class="form-control txt-questions mt-4" rows="3" id="validationTextarea" placeholder="Pertanyaan kamu.." required></textarea>
+                        <a href="#" class="btn btn-outline-warning btn-questions mt-3 p-2">Tanyakan Sekarang</a> 
+                        </div>
+                    </div>
+                </div>
+             </div>
           </div>
+          
     </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="js/dist/wow.min.js"></script>
-    <script src="js/dist/wow.min.js"></script>
-
-    <script>
-        wow = new WOW({
-            boxClass:     'do_script',      // default
-            animateClass: 'animated', // default
-            offset:       0,          // default
-            mobile:       true,       // default
-            live:         true        // default
-          })
-        wow.init();
-    </script>
-
+    <script src="js/dist/js.js"></script>
+ 
 </body>
 </html>
