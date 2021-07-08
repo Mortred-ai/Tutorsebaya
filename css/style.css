@@ -1,0 +1,80 @@
+ 
+/*******************/
+/*                 */
+/*  Variable Root  */
+/*                 */
+/*******************/
+
+:root {
+
+	--main-font-raleway: 'Raleway', sans-serif;
+	--main-font-roboto: 'Roboto', sans-serif;
+	--main-font-roboto-s: 'Roboto Slab', serif;
+	--main-font-mons: 'Montserrat', sans-serif;
+
+	--main-dark-color: #DB9933; 
+	--main-darker-color: #C05519;
+	--main-darkest-color: #9D3B04;
+	--main-light-color: #FCF1CA;
+	--main-orange-color: #FF8A01;
+	--main-yellow-color: #FFA302;
+	--main-black-color: #0A0909;
+	--main-white-color: #FFFFFF;
+	--main-lbrown-color: #E98E23;
+	--main-brown-color: #CB5431;
+	--main-green-color: #8FFF01;
+
+	--main-radius: 4px;
+}
+
+:focus {
+	outline: none;
+}
+
+
+/*******************/
+/*                 */
+/*   Main class    */
+/*                 */
+/*******************/ 
+
+.text-white{
+    color : var(--main-white-color);
+}
+
+.text-orange{
+    color : var(--main-orange-color);
+}
+
+.text-white{
+    color : var(--main-white-color);
+}
+
+.text-yellow{
+    color : var(--main-yellow-color);
+}
+
+.text-dark{
+    color : var(--main-dark-color);
+}
+
+.text-darker{
+    color : var(--main-darker-color);
+}
+
+.text-darkest{
+    color : var(--main-darkest-color);
+}
+
+.bg-darker{
+    background : var(--main-darker-color); 
+}
+
+
+/*******************/
+/*                 */
+/*      Style      */
+/*                 */
+/*******************/
+
+
