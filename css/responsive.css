@@ -64,6 +64,10 @@
         background: url(../assets/bg-3.png);
         background-repeat: no-repeat;  
         height: 100%;  
+    }
+
+    .banner-info span{  
+       font-size: 0.8em;
     } 
 }
 
@@ -138,7 +142,10 @@
         height: 100%; 
         padding: 0;
     }
- 
+    
+    .banner-info span{  
+        font-size: 0.8em;
+     }
     
 }
 
@@ -214,6 +221,10 @@
         background-repeat: no-repeat;  
         height: 100%; 
 
+    }
+
+    .banner-info span{  
+        font-size: 1em;
     }
 }
 
