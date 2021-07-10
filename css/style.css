@@ -308,6 +308,7 @@ input:checked + .accordion-label {
     background: var(--main-darkest-color);
 }
 input:checked + .accordion-label::after {
+    margin-top: 5px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
