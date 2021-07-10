@@ -106,9 +106,10 @@ body{
 /********************/
 
 .jumbotron-landing {
-    height: 60vh;
-    opacity: 0.9;
+    height: 60vh; 
     position: relative; 
+    background: url(../assets/bg-4.png);
+    background-position: top center;
 }
  
 
