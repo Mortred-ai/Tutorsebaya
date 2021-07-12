@@ -74,6 +74,11 @@
         padding: 0 18px;
        height: 85px; 
    }
+   
+   .leaderboard{
+        display: none;
+    }
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -157,6 +162,10 @@
         height: 85px; 
     }
     
+   .leaderboard{
+        display: none;
+    }
+        
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -239,6 +248,10 @@
 
     .list{ 
         height: 105px; 
+    }
+    
+   .leaderboard{
+        display: block;
     }
 }
 

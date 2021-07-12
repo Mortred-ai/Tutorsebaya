@@ -92,6 +92,10 @@ body{
     border-radius: 20px;
 }
 
+.btn-dark{
+    background-color : var(--main-darker-color);
+}
+
 
 
 /********************/
@@ -367,6 +371,7 @@ body{
     background: var(--main-gray-color);
     height: 105px;
     box-shadow: 0px 0px 5px 1px rgb(206, 206, 206);
+    overflow-y: hidden ;
 }
 
 .list p{
@@ -395,7 +400,7 @@ body{
 /********************/
 
 .question{
-    padding-top: 250px;
+    padding-top: 150px;
     color: var(--main-darker-color);
 }
 
@@ -420,5 +425,21 @@ body{
     /* box-shadow: 0px 1px 4px 1px rgb(207, 207, 207); */
     background : var(--main-gray-color);
     border-radius:  20px;
+}
+
+.question button{  
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px 1px rgb(207, 207, 207);
+
+}
+
+.question button:nth-child(1){  
+   width: 65%;
+}
+
+.question button:last-child{  
+   min-width: 32%;
 }
 
