@@ -12,7 +12,7 @@
 	--main-font-roboto-s: 'Roboto Slab', serif;
 	--main-font-mons: 'Montserrat', sans-serif;
 
-	--main-dark-color: #DB9933; 
+	--main-darks-color: #DB9933; 
 	--main-darker-color: #C05519;
 	--main-darkest-color: #9D3B04;
 	--main-light-color: #FCF1CA;
@@ -23,6 +23,7 @@
 	--main-lbrown-color: #E98E23;
 	--main-brown-color: #CB5431;
 	--main-green-color: #8FFF01;
+	--main-gray-color: rgb(247, 247, 247);
 
 	--main-radius: 4px;
 }
@@ -101,7 +102,7 @@ body{
 
 /********************/
 /*                  */
-/*      Banner      */
+/*  Banner - index  */
 /*                  */
 /********************/
 
@@ -168,7 +169,7 @@ body{
 
 /********************/
 /*                  */
-/*       Info       */
+/*   Info - index   */
 /*                  */
 /********************/
 
@@ -211,7 +212,7 @@ body{
 
 /********************/
 /*                  */
-/*      Banner      */
+/*  Banner - index  */
 /*                  */
 /********************/
 
@@ -231,7 +232,7 @@ body{
 
 /********************/
 /*                  */
-/*      Reason      */
+/*  Reason - index  */
 /*                  */
 /********************/
 
@@ -243,7 +244,7 @@ body{
 
 /********************/
 /*                  */
-/*       FAQ        */
+/*   FAQ - index    */
 /*                  */
 /********************/ 
 input {
@@ -320,8 +321,8 @@ input:checked ~ .accordion-content {
 
 
 /********************/
-/*                  */
-/*      Footer      */
+/*                  */ 
+/*  Footer - index  */
 /*                  */
 /********************/
 
@@ -343,4 +344,24 @@ input:checked ~ .accordion-content {
     cursor: pointer;
     font-weight: bold;
     color: var(--main-darker-color);
+}
+
+
+/********************/
+/*                  */ 
+/*   list - index   */
+/*                  */
+/********************/
+
+body{
+    background: url(../assets/bg-6.png);
+    background-size: 100%;
+}
+
+.list{
+    background: var(--main-gray-color);
+}
+
+.list img{
+    flex: 1;
 }
