@@ -69,6 +69,11 @@
     .banner-info span{  
        font-size: 0.75em;
     } 
+    
+    .list{ 
+        padding: 0 18px;
+       height: 85px; 
+   }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -146,6 +151,11 @@
     .banner-info span{  
         font-size: 0.8em;
      }
+    
+
+     .list{ 
+        height: 85px; 
+    }
     
 }
 
@@ -225,6 +235,10 @@
 
     .banner-info span{  
         font-size: 1em;
+    }
+
+    .list{ 
+        height: 105px; 
     }
 }
 
