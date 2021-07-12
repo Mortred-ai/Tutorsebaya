@@ -360,8 +360,25 @@ body{
 
 .list{
     background: var(--main-gray-color);
+    height: 105px;
+    box-shadow: 0px 0px 5px 1px rgb(206, 206, 206);
+}
+
+.list p{
+    margin-bottom: 2px;
+}
+
+.list .container{
+    /* width: 500px; */
+    padding: 0 200px;
+}
+
+.tag{
+    width: 50px;
 }
 
 .list img{
     flex: 1;
+    width: 30px;
+    max-height: 105px;
 }
