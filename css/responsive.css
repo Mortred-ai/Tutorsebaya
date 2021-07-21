@@ -79,6 +79,14 @@
         display: none;
     }
 
+    .question button:nth-child(1){  
+        max-width: 52%;
+     }
+    
+    .question button:last-child{  
+        min-width: 45%;
+     }
+     
 }
 
 /* // Small devices (landscape phones, 576px and up) */

@@ -385,6 +385,23 @@ body{
 
 .tag{
     width: 50px;
+    cursor : pointer;
+    text-decoration: none;
+} 
+
+.tag > a:last-child{
+    color : var(--main-orange-color);
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    /* width: 50px; */
+}
+
+.tag > a:last-child:hover{
+    color : var(--main-darker-color);
+    font-weight: bold;
+    text-decoration: none;
+    /* width: 50px; */
 }
 
 .list img{
