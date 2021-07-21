@@ -455,8 +455,5 @@ body{
 .question button:nth-child(1){  
    width: 65%;
 }
-
-.question button:last-child{  
-   min-width: 32%;
-}
+ 
 

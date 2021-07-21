@@ -173,7 +173,12 @@
    .leaderboard{
         display: none;
     }
-        
+    
+    
+    .question button:last-child{  
+        min-width:32%;
+     }
+     
 }
 
 /* // Medium devices (tablets, 768px and up) */
