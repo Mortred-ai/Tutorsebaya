@@ -1,3 +1,15 @@
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+if (prevScrollpos > currentScrollPos) {
+    document.getElementById("category-list").style.top = "66px";
+} else {
+    document.getElementById("category-list").style.top = "-67px";
+}
+prevScrollpos = currentScrollPos;
+}
+
 wow = new WOW({
     boxClass:     'do_script',      // default
     animateClass: 'animated', // default
@@ -53,3 +65,4 @@ $('.slider').slick({
     // instead of a settings object
   ]
 });
+ 
